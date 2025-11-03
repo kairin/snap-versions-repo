@@ -12,3 +12,19 @@ For all future commits, the following process will be used:
 3. The new branch will be merged into the `main` branch.
 4. Both the `main` branch and the new timestamped branch will be pushed to the remote repository.
 This ensures a complete history of all changes, with each change saved in its own uniquely named branch.
+
+---
+
+## LLM Agent Instructions
+
+This document outlines the rules for maintaining the structure of this repository.
+
+### Root Folder Structure
+
+The root folder of this repository should only contain the following files:
+
+*   `/home/kkk/Apps/snap-versions-repo/AGENTS.md` (this file)
+*   `/home/kkk/Apps/snap-versions-repo/README.md`
+*   The two symlinks `/home/kkk/Apps/snap-versions-repo/GEMINI.md` and `/home/kkk/Apps/snap-versions-repo/CLAUDE.md` that symlink to `/home/kkk/Apps/snap-versions-repo/AGENTS.md`.
+
+All other files and directories should be placed in appropriate subfolders.

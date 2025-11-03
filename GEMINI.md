@@ -1,1 +1,1 @@
-AGENTS.md
+/home/kkk/Apps/snap-versions-repo/AGENTS.md
